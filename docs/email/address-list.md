@@ -13,7 +13,7 @@ and security discussion.
 | CEO | Luke Skywalker | skywalker@ALLIANCE.NET | Executive identity |
 | Sales | Leia Organa | princess@ALLIANCE.NET | Shared role mailbox |
 | Sales | See Threpio | C-3PO@ALLIANCE.NET | AI Intern |
-| Human Resources | falcon.sol@ALLIANCE.NET | Sensitive data context |
+| Human Resources | Han Solo | falcon.sol@ALLIANCE.NET | Sensitive data context |
 | Development | Rey Skywalker | rskywalker@ALLIANCE.NET | CyberSecurity Labs |
 | Development | R2-D2 | R2-D2@ALLIANCE.NET | AI Automation |
 | Web Services | Obi-Wan Kenobi | OB1@ALLIANCE.NET | 
@@ -29,3 +29,4 @@ These addresses may be referenced in:
 - No real domain ownership
 - No live email delivery
 - No third-party integrations
+
