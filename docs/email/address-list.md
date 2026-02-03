@@ -17,16 +17,3 @@ and security discussion.
 | Development | Rey Skywalker | rskywalker@ALLIANCE.NET | CyberSecurity Labs |
 | Development | R2-D2 | R2-D2@ALLIANCE.NET | AI Automation |
 | Web Services | Obi-Wan Kenobi | OB1@ALLIANCE.NET | 
-
-
-## Security Context
-These addresses may be referenced in:
-- Phishing simulations (documented only)
-- Log examples
-- Incident response narratives
-
-## Constraints
-- No real domain ownership
-- No live email delivery
-- No third-party integrations
-
