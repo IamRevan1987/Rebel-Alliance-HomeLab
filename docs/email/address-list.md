@@ -9,16 +9,15 @@ and security discussion.
 ## Address Inventory
 | Role | Email Address | Notes |
 |----|--------------|-------|
-| IT Administrator | admin@rebelalliancelab | High-risk account |
-| CEO | ceo@rebelalliancelab | Executive identity |
-| Sales | sales@rebelalliancelab | Shared role mailbox |
-| Human Resources | hr@rebelalliancelab | Sensitive data context |
-| Development | dev@rebelalliancelab | Dependency risk scenarios |
+| IT Administrator | David Stacey | David@ALLIANCE.NET | Running the show |
+| CEO | Luke Skywalker | skywalker@ALLIANCE.NET | Executive identity |
+| Sales | Leia Organa | princess@ALLIANCE.NET | Shared role mailbox |
+| Sales | See Threpio | C-3PO@ALLIANCE.NET | AI Intern |
+| Human Resources | falcon.sol@ALLIANCE.NET | Sensitive data context |
+| Development | Rey Skywalker | rskywalker@ALLIANCE.NET | CyberSecurity Labs |
+| Development | R2-D2 | R2-D2@ALLIANCE.NET | AI Automation |
+| Web Services | Obi-Wan Kenobi | OB1@ALLIANCE.NET | 
 
-## Design Notes
-- Role-based addresses only
-- No personal user mailboxes
-- No authentication backing required
 
 ## Security Context
 These addresses may be referenced in:
@@ -30,7 +29,3 @@ These addresses may be referenced in:
 - No real domain ownership
 - No live email delivery
 - No third-party integrations
-
-## Status
-- Documentation complete
-- Email identity section closed
