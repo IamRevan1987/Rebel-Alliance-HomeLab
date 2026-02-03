@@ -30,7 +30,7 @@ CORES: 6
 RAM: 8GB
 
 
-**Guest/VM3: RAS-Core-KaliLinu**
+**Guest/VM4: RAS-Core-KaliLinu**
 *** This install will need another attempt at a later point.
 VMWare Pro
 Disc Location: E:\01 Active VMs\01 
@@ -77,6 +77,7 @@ FQDN: 5.1.0.10
 DNS: 192.168.0.1
 Name: RAS-Workstation-Alpha
 Workgroup: WORKGROUP
+
 
 
 
