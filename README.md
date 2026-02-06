@@ -28,7 +28,9 @@ The lab represents an **imaginary startup**, *Rebel Alliance Systems*, and is in
 ## Environment Overview
 
 - **Core Linux VM**: central services, logging, security tooling
-- **Windows 11 VM**: workstation simulation
+- **Windows 10 VM**: workstation simulation
+- **Linux Ubuntu**: dev workstation simulation
+- **Kali Linus**: Cybersecurity Applications
 - **Role-based identities** only (admin, exec, dev, sales, HR)
 - NAT-only networking baseline
 
