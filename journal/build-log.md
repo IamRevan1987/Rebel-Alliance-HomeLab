@@ -39,26 +39,34 @@
 
 ### Next steps:
 
-## February 10, Tuesday, 2026 - Initial Setup
-
-The following procedure was execute for setup
-### Steps ###:
-- Install and boot Windows 2022 Server
-- Establish Static IP Settings for server routing
-- Install Active Directory Domain Services and Restart
-- Establish new DNS Server: RAS-WORKSTATION  Domain: alliance.net
-- Downloaded IT Admin's "Installers" (Verified safe)
-- Install DHCP/DNS Services, set scope, verify settings
-- Install IIS Management services and setup Judy-Punk AI Website
-
-
-
-- Fresh installs of VM1 and VM2, VM3 still needs to be installed. 
-- Established Brave Browser for security and privacy.
+- Fresh install VM3. 
+- Established Users and OUs.
 - Established 2 emails, one for `IT Admin` and one for `CEO`
 - Established Proton Mail account for IT Admin. ***@proton.me
 - Attaching "faux" website to the main server workstation.
 - **RAS Website**: *www.RASai.net*
+
+
+## February 10, Tuesday, 2026 - Initial Setup
+
+### Steps ###:
+The following procedure was execute for setup
+- Install and boot Windows 2022 Server
+- Establish Static IP Settings for server routing
+- Shut down, switch network adapters, set video settings and ###SNAPSHOT### 
+- Install Active Directory Domain Services and Restart
+- Snapshot Here.
+- Establish new DNS Server: RAS-WORKSTATION  Domain: alliance.net
+- Downloaded IT Admin's "Installers" (Verified safe)
+- Install DHCP/DNS Services, set scope, verify settings
+- Install IIS Management services and setup Judy-Punk AI Website
+- Confirm Network Signal with VM2..
+
+- Install and boot Windows 10 (VM2)
+- Shut down, switch network adapters, set video settings and ###SNAPSHOT###
+- Boot up and access settings to connect to the domain.
+- Verify domain connection with faux website.
+- Verify domain connection by sharing a folder/file.
 
 ### Established Static Server IP Addressing as:
 - 10.0.1.5
@@ -68,6 +76,7 @@ The following procedure was execute for setup
 - DNS: 192.168.0.1
 - Name: RAS-Workstation-Alpha
 - Workgroup: WORKGROUP
+
 
 
 
