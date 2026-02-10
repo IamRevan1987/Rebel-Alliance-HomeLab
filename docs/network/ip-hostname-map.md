@@ -21,7 +21,7 @@ Examples:
 # RAS Lab – Logical Infrastructure Mapping
 
 ## Overview
-This repository documents the logical layout of the **RAS Lab** virtualized environment running on a single physical host using Oracle VirtualBox. The lab is designed for Active Directory, DNS, DHCP, IIS, Windows client integration, and Linux domain authentication.
+This repository documents the logical layout of the **RAS Lab** virtualized environment running on a single physical host using Oracle VirtualBox. The lab is designed for Active Directory, DNS, DHCP, IIS, Windows client integration, Web Hosting Capabilities, Linux domain authentication and AI Integration with Cybersecurity.
 
 ---
 
@@ -134,5 +134,6 @@ This allows:
 
 ## Status
 - Active during lab working hours.
+
 
 
