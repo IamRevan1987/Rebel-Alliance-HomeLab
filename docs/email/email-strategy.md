@@ -21,10 +21,6 @@ They do NOT represent:
 - Live mail infrastructure
 - Persistent communication systems
 
-## Planned Domain
-- `rebelalliancelab` (symbolic)
-- No real DNS ownership required
-
 ## Role-Based Addresses
 - `admin@rebelalliancelab`
 - `ceo@rebelalliancelab`
@@ -55,3 +51,4 @@ This approach:
 ## Status
 - Documentation only
 - No email services configured
+
