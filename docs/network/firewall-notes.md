@@ -11,9 +11,10 @@ No firewall rules are applied at this stage.
 - Explicit allow for required services only
 - Visibility over silence (log meaningful events)
 
-## Linux VM (RAS-lab-core-linux)
+## RAS-Workstation-Alpha
 **Firewall Tool (Planned):**
-- `ufw` (simplicity and interview familiarity)
+- Standard Windows Firewall
+- Norton 360 w/ VPN Services
 
 **Baseline Posture**
 - Inbound: Deny all by default
@@ -27,9 +28,10 @@ No firewall rules are applied at this stage.
 - Log denied inbound connections
 - Avoid excessive outbound logging
 
-## Windows 11 VM (RAS-lab-workstation-win11)
+## Windows 10 VM (RAS-WorkstationB-win11)
 **Firewall Tool:**
 - Windows Defender Firewall
+- Norton 360 w/ VPN
 
 **Baseline Posture**
 - Inbound: Block unsolicited traffic
@@ -60,3 +62,4 @@ It avoids:
 ## Status
 - Documentation only
 - No firewall rules implemented yet
+
