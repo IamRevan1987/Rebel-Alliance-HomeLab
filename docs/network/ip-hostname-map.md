@@ -53,25 +53,6 @@ This repository documents the logical layout of the **RAS Lab** virtualized envi
 | DNS Resolution | Internal (AD-integrated DNS) |
 
 
-## Logical VM Mapping
-| System | Hostname | OS | IP Type | Resources | Notes |
-|------|----------|----|---------|----------|------|
-| Host Machine | BEELINK-SER9 | Windows 11 | N/A | Ryzen 9 / 32GB RAM | Physical host |
-| VM1 – Core Server | **RAS-Workstation-Alpha** | Windows Server 2022 | **Static IP** | 4 vCPU / 8GB RAM / 75GB Disk | AD DS, DNS, DHCP, IIS |
-| VM2 – Workstation | RASWorkstationB | Windows 10 | DHCP | 4 vCPU / 8GB RAM / 50GB Disk | Domain-joined user workstation |
-| VM3 – Linux Core | RAS-Core-UbuntuLinux | Ubuntu 24.02 LTS | DHCP | TBD | Linux AD integration, sudo via domain |
-| VM4 – Kali (Deferred) | RAS-Core-KaliLinux | Kali Linux | TBD | TBD | Security testing (future phase) |
-
-
-## VM Storage Locations
-| VM | Disk Location |
-|----|--------------|
-| RAS-Workstation-Alpha | `C:\Users\Rebel Alliance Lab\VirtualBox\RAS-Workstation-Alpha` |
-| RASWorkstationB | `E:\01 Active VMs\RASWorkstationB` |
-| RAS-Core-UbuntuLinux | `C:\Users\Rebel Alliance Lab\VirtualBox\` |
-| RAS-Core-KaliLinux | TBD |
-
-
 ## Server Role Mapping (VM1)
 **RAS-Workstation-Alpha**
 - Active Directory Domain Services
@@ -90,35 +71,9 @@ Recommended checkpoints:
 - Stable baseline snapshot (Saved as `RAS Established`)
 
 
-## Notes
-- All client systems receive IP configuration via DHCP.
-- Server maintains a static IP for domain stability.
-- Linux and Kali systems are intended for advanced authentication and security/AI labs.
-- This lab is designed for learning, testing, and portfolio demonstration.
-
-
-## Rationale
-- DHCP avoids unnecessary complexity
-- Hostnames provide human-readable identity
-- Mapping supports log analysis and Splunk searches
-
-## Logging Context
-Logs should reference:
-- **Hostname**: RAS-WorkstationAlpha
-- **Domain Name**: RAS-Lab.net
-- **DNS**: RAS-WORKSTATION
-- **DNS Address**: 10.0.1.5
-
-This allows:
-- Correlation across Linux and Windows logs
-- Easier incident walkthroughs
-
-## Constraints
-- No static IPs required
-- Hostname resolution handled locally per OS
-
 ## Status
 - Active during lab working hours.
+
 
 
 
