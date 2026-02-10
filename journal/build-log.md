@@ -1,4 +1,4 @@
-*Current system notes:*
+***Current system notes:***
 
 **Host Computer:**
 BEELINK SER9 with AMD Ryzen 9 6900HX Radeon Graphics, 32GB RAM
@@ -42,16 +42,16 @@ RAM: 8GB
 **Logimetrics:
 February 3, Tuesday, 2026 - Initial Setup
 
-Starting with VM1 and VM2 fresh installs, setting up VM1 as the server.
-Configuration is still the same, Active Directory is being setup for 8 users.
-Successfully added VM2 to ALLIANCE.NET Domain
-Created a real email account for the IT Admin, self, @ dave.it.stacey@proton.me
-Created a real email account for Sales rep Leia Organa @ daveisrevan@zohomail.com
-I have successfully added OUs and populated them accordingly.
-Added web services to Active Directory.
-Successfully added the fake website to the inetpub folder, loads successfully on localhost.
-Established the website as www.alliance.com via IIS Manager.
-Successfully installed VMs 3 Ubuntu Linux, and connected to the Domain, and verified the server website.
+- Starting with VM1 and VM2 fresh installs, setting up VM1 as the server.
+- Configuration is still the same, Active Directory is being setup for 8 users.
+- Successfully added VM2 to ALLIANCE.NET Domain
+- Created a real email account for the IT Admin, self, @ dave.it.stacey@proton.me
+- Created a real email account for Sales rep Leia Organa @ daveisrevan@zohomail.com
+- I have successfully added OUs and populated them accordingly.
+- Added web services to Active Directory.
+- Successfully added the fake website to the inetpub folder, loads successfully on localhost.
+- Established the website as www.alliance.com via IIS Manager.
+- Successfully installed VMs 3 Ubuntu Linux, and connected to the Domain, and verified the server website.
 
 *Next steps:
 Research Wazuh
@@ -77,6 +77,7 @@ FQDN: 5.1.0.10
 DNS: 192.168.0.1
 Name: RAS-Workstation-Alpha
 Workgroup: WORKGROUP
+
 
 
 
