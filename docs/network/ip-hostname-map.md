@@ -14,15 +14,15 @@ Examples:
 - `ras-workstation-win11`
 
 ## Planned Network Range
-- VMware NAT subnet (auto-assigned)
-- Example range: `192.168.x.0/24`
-- Gateway: VMware NAT gateway
+- VirtualBox NAT subnet (auto-assigned)
+- Example range: `10.0.1.20` - `10.0.1.50`
+- Gateway: RAS_Holonet
 
 ## Logical Mapping (Example)
 | System | Hostname | IP Type | Notes |
 |------|----------|---------|-------|
-| Core Linux VM | ras-core-linux | DHCP | Primary server role |
-| Windows 11 VM | ras-workstation-win11 | DHCP | User workstation |
+| Windows 2022 Server | **INSERT** | DHCP | Primary server role |
+| Windows 10 VM | rasworkstationb | DHCP | User workstation |
 
 ## Rationale
 - DHCP avoids unnecessary complexity
@@ -31,8 +31,10 @@ Examples:
 
 ## Logging Context
 Logs should reference:
-- Hostname (preferred)
-- IP address (secondary)
+- **Hostname**: RAS-WorkstationAlpha
+- **Domain Name**: RAS-Lab.net
+- **DNS**: RAS-WORKSTATION
+- **DNS Address**: 10.0.1.5
 
 This allows:
 - Correlation across Linux and Windows logs
@@ -40,9 +42,8 @@ This allows:
 
 ## Constraints
 - No static IPs required
-- No DNS server deployed
 - Hostname resolution handled locally per OS
 
 ## Status
-- Design only
-- No networking configuration performed
+- Active during lab working hours.
+
