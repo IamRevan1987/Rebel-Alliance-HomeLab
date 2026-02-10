@@ -69,13 +69,13 @@ The following procedure was execute for setup
 - Verify domain connection by sharing a folder/file.
 
 ### Established Static Server IP Addressing as:
-- 10.0.1.5
-- 255.255.0.0
-- 10.0.1.1
-- FQDN: 5.1.0.10
-- DNS: 192.168.0.1
+- IP4V 10.0.1.5
+- Subnet 255.255.0.0
+- Gateway 10.0.1.1
+- DNS: 10.0.1.1
 - Name: RAS-Workstation-Alpha
 - Workgroup: WORKGROUP
+
 
 
 
