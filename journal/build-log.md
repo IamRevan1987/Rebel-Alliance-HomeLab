@@ -40,7 +40,7 @@
 - RAM: 8GB
 
 # Logimetrics:
-February 3, Tuesday, 2026 - Initial Setup
+## February 3, Tuesday, 2026 - Initial Setup
 
 - Starting with VM1 and VM2 fresh installs, setting up VM1 as the server.
 - Configuration is still the same, Active Directory is being setup for 8 users.
@@ -53,30 +53,30 @@ February 3, Tuesday, 2026 - Initial Setup
 - Established the website as www.alliance.com via IIS Manager.
 - Successfully installed VMs 3 Ubuntu Linux, and connected to the Domain, and verified the server website.
 
-*Next steps:
+### Next steps:
 Research Wazuh
 Assign Users to Computers and define rules.
 
 
-February 1, Sunday, 2026 - Initial Setup
+## February 1, Sunday, 2026 - Initial Setup
 
-Clearing out space on "DROID" removable HDD
+### Clearing out space on "DROID" removable HDD
 
+- Stopped VM building with fresh installs of VM1 and VM2, VM3 still needs to be installed. 
+- Focusing on setup of main office workstation and building of fake company website using AntiGravity Pro
+- Established Brave Browser for security and privacy.
+- Established Proton Mail account for IT Admin. ***@proton.me
+### Must remember to setup other emails with Zoho Mail, recommended by ChatGPT
 
-Stopped VM building with fresh installs of VM1 and VM2, VM3 still needs to be installed. 
-Focusing on setup of main office workstation and building of fake company website using AntiGravity Pro
-Established Brave Browser for security and privacy.
-Established Proton Mail account for IT Admin. ***@proton.me
-** Must remember to setup other emails with Zoho Mail, recommended by ChatGPT
+### Established a Static Server IP Addressing as:
+- 10.0.1.5
+- 255.255.0.0
+- 10.0.1.1
+- FQDN: 5.1.0.10
+- DNS: 192.168.0.1
+- Name: RAS-Workstation-Alpha
+- Workgroup: WORKGROUP
 
-Established a Static Server IP Addressing as:
-10.0.1.5
-255.255.0.0
-10.0.1.1
-FQDN: 5.1.0.10
-DNS: 192.168.0.1
-Name: RAS-Workstation-Alpha
-Workgroup: WORKGROUP
 
 
 
