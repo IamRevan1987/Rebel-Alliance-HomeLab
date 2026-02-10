@@ -6,24 +6,32 @@ demonstrates practical IT and junior cybersecurity fundamentals under real-world
 
 ## Scope and Constraints
 - Single Windows 11 host running VMware
-- Maximum of two VMs running at any time
+- Maximum of two VMs running at any time due to hardware constraints
 - Freeware or free-tier tools only
-- No real personal email accounts tied to trials
+- 2 legitimate emails tied to Proton and Zoho email servers, One for the "CEO"/Dev and one for the IT Admin
 - Documentation-first: every build step should be reproducible from this repo
 
 ## High-Level Architecture
 **Host (Physical)**
-- Windows 11 (primary workstation and hypervisor host)
-- VMware for VM lifecycle (creation, snapshots, networking)
+- BEELINK SER9 with AMD Ryzen 9 6900HX Radeon Graphics, 32GB RAM Microsoft Windows 11 Version 25H2 (OS Build 26200.7623)
+- VirtualBox for VM lifecycle (creation, snapshots, networking)
 
 **Virtual Machines (Planned)**
-1. `RAS-lab-core-linux`
-   - Primary “server” role for core services, logging sources, and security baseline
-   - Linux user accounts map to org roles (documented in /docs/users-roles)
+1. `RAS-Workstation-Alpha`
+   - Primary “server” role for core services, logging sources, and security baseline, web hosting.
+   - Primary Accouts are Administrator and IT Admin
 
-2. `RAS-lab-workstation-win11`
+2. `RASWorkstationB`
    - User/workstation role to simulate typical endpoint activity
-   - Windows event logging source for detections and troubleshooting scenarios
+   - Primary Accounts are IT Admin and HR
+  
+3. `RAS-Core-UbuntuLinux` 
+   - "Dev" workstation
+   - Primary accounts are IT Admin/Dev
+  
+4. `RAS-Core-KaliLinu`
+   - "Cyber Security" workstation
+   - Primary account for IT Admin
 
 ## Identity Model
 **Organization:** Rebel Alliance Systems  
@@ -32,14 +40,14 @@ demonstrates practical IT and junior cybersecurity fundamentals under real-world
 - `admin_it`
 - `ceo_exec`
 - `sales_01`, `sales_02`
-- `hr_people`
+- `hr_home`
 - `ux_web`
 - `dev_py01`, `dev_py02`
 
 Email identities are role-based and symbolic (documented in /docs/email).
 
 ## Logging and Security Evidence (Planned)
-- Central logging and detections using Splunk
+- Central logging and detections using TBD SIEM
 - Naming targets:
   - Index: `ras_lab`
   - Source types:
@@ -59,3 +67,4 @@ This repo is the primary artifact. Reviewers should be able to:
 ## Phase Status
 - Phase 1: Complete (repo scaffold, branches, protections, README, demo path)
 - Phase 2: In progress (architecture & identity docs only — no VMware/VM build yet)
+
